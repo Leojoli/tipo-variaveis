@@ -1,6 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-       double salarioMinimo = 2500;
-       System.out.println(salarioMinimo);
+     int nota = 8;
+     if(nota >=7)
+     System.err.println("Aprovado");
+
+     else
+     System.err.println("Reprovado");
+
     }
 }
